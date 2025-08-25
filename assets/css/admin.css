@@ -1,0 +1,5 @@
+.h2wpi-grid { display:grid; grid-template-columns: 1fr; gap:24px; }
+.h2wpi-bar { position:relative; background:#eee; border-radius:6px; height:24px; overflow:hidden; }
+.h2wpi-bar span { position:absolute; left:0; top:0; bottom:0; width:0; background:#2271b1; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:600; transition:width .2s; }
+#h2wpi-log { background:#111; color:#9ef; padding:12px; height:240px; overflow:auto; }
+.hidden { display:none; }
