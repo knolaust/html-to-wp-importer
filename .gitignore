@@ -1,71 +1,9 @@
-# ---------------------------------------------------------
-# macOS system files
-# ---------------------------------------------------------
 .DS_Store
-.AppleDouble
-.LSOverride
 __MACOSX/
-
-# ---------------------------------------------------------
-# Node / JS build files (if you’re using npm/yarn)
-# ---------------------------------------------------------
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# ---------------------------------------------------------
-# Build output
-# ---------------------------------------------------------
-/build/
-/dist/
-/vendor/
-/composer.lock
-package-lock.json
-
-# ---------------------------------------------------------
-# Logs & temp
-# ---------------------------------------------------------
+build/
+dist/
 *.log
 *.tmp
-*.swp
-*.swo
-
-# ---------------------------------------------------------
-# IDE / editor configs
-# ---------------------------------------------------------
 .idea/
 .vscode/
-*.code-workspace
-*.sublime-project
-*.sublime-workspace
-
-# ---------------------------------------------------------
-# WordPress ignores
-# ---------------------------------------------------------
-# Don’t commit the whole WP install, just your plugin code
-wp-config.php
-wp-content/uploads/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/advanced-cache.php
-wp-content/wp-cache-config.php
-wp-content/backups-dup-lite/
-wp-content/backups/
-wp-content/ai1wm-backups/
-
-# ---------------------------------------------------------
-# PHP specific
-# ---------------------------------------------------------
-*.cache
-*.bak
-*.sql
-*.sql.gz
-
-# ---------------------------------------------------------
-# OS-specific trash
-# ---------------------------------------------------------
-ehthumbs.db
-Thumbs.db
-Desktop.ini

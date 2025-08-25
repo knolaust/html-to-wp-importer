@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+/tests           export-ignore
+/node_modules    export-ignore
+/.gitignore      export-ignore
+/.editorconfig   export-ignore
+/.vscode         export-ignore
+/.github         export-ignore
