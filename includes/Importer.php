@@ -71,7 +71,7 @@ class Importer {
 
 		libxml_use_internal_errors(true);
 		$dom = new \DOMDocument();
-		$dom->loadHTML('<?xml encoding="UTF-8">'.$html, LIBXML_HTML_NOIMPLIED|LIBXML_HTML_NODEFDTD);
+		$dom->loadHTML($html, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
 		libxml_clear_errors();
 
 		$title = '';
@@ -111,7 +111,7 @@ class Importer {
 
 		libxml_use_internal_errors(true);
 		$dom = new \DOMDocument();
-		$dom->loadHTML('<?xml encoding="UTF-8">'.$html, LIBXML_HTML_NOIMPLIED|LIBXML_HTML_NODEFDTD);
+		$dom->loadHTML($html, LIBXML_HTML_NOIMPLIED | LIBXML_HTML_NODEFDTD);
 		libxml_clear_errors();
 
 		$first_image_id = null;

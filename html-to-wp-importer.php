@@ -2,7 +2,7 @@
 /**
  * Plugin Name: HTML → WP Importer (Admin UI)
  * Description: Import a folder/zip of static HTML (.html/.htm) into posts/pages with options. Tools → HTML → WP Importer.
- * Version:     1.0.1
+ * Version:     1.0.2
  * Author:      Knol Aust
  */
 

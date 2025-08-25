@@ -184,6 +184,8 @@ dist/
 ---
 
 ## Changelog
+### 1.0.2
+- Created Package workflow for GitHub Releases
 
 ### 1.0.1
 - Switch form post to **admin-post** flow to avoid “Cannot load …” edge cases
