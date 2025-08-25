@@ -184,6 +184,8 @@ dist/
 ---
 
 ## Changelog
+### 1.0.3
+- Fixed XML content in post body
 ### 1.0.2
 - Created Package workflow for GitHub Releases
 
