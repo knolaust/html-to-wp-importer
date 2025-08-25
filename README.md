@@ -203,4 +203,4 @@ GPL-2.0-or-later. See: https://www.gnu.org/licenses/gpl-2.0.html
 
 ## Credits
 
-Built by **Knol Aust** with help from ChatGPT (GPT-5 Thinking).
+Built by **Knol Aust.
