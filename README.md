@@ -2,8 +2,24 @@
 
 Import a folder/zip of static **HTML (.html/.htm)** into WordPress as posts/pages — **no CLI required**. Runs in **AJAX batches** to avoid timeouts, optionally moves local assets (images/PDFs) into Media Library and rewrites links.
 
+---
+
+## Input expectations
+
+This importer is designed for **simple HTML files** that contain only the main **body content**.  
+
+- ✅ Works best when files contain just the content you want imported (paragraphs, headings, images, links, etc.).  
+- ❌ Files that include `<head>`, `<header>`, `<footer>`, `<nav>`, or full-page layouts will import those elements into WordPress posts as-is.
+
+### Example (expected input)
+
+```html
+<h1>About Us</h1>
+<p>Our company was founded in 1999 and has been growing ever since.</p>
+<img src="images/team.jpg" alt="Team Photo">
+<p>Contact us at <a href="contact.html">our contact page</a>.</p>
+
 - Admin screen: **Tools → HTML → WP Importer**
-- Works on typical shared hosting + Local (by Flywheel)
 
 ---
 
