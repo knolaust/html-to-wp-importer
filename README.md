@@ -200,6 +200,8 @@ dist/
 ---
 
 ## Changelog
+### 1.0.4
+- Minor text fixes
 ### 1.0.3
 - Fixed XML content in post body
 ### 1.0.2
